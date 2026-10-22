@@ -13,8 +13,8 @@ To test it directly, we're building three pieces:
 | Component | Role | Status |
 | --- | --- | --- |
 | **Quantum simulator** | State-vector simulator in Rust that runs the circuits | In progress |
-| **aaronnet** | From-scratch CPU autograd engine for the classical baselines | Benchmarked against PyTorch |
-| **Transformer** | Small causal transformer on aaronnet, the model we compare against | Plan |
+| **adjoint** | From-scratch CPU autograd engine for the classical baselines | Benchmarked against PyTorch |
+| **Transformer** | Small causal transformer on adjoint, the model we compare against | Plan |
 
 ### What we study
 
